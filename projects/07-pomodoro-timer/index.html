@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>25:00 - Focus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Pomodoro</h1>
+
+    <div class="ring">
+      <svg viewBox="0 0 200 200">
+        <circle class="ring-track" cx="100" cy="100" r="90" />
+        <circle id="ring-progress" class="ring-progress" cx="100" cy="100" r="90" />
+      </svg>
+      <div class="ring-text">
+        <p id="mode">Focus</p>
+        <p id="time">25:00</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="start-btn">Start</button>
+      <button id="reset-btn" class="secondary">Reset</button>
+    </div>
+
+    <p id="message" class="message"></p>
+    <p class="sessions">Sessions done: <span id="sessions">0</span></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

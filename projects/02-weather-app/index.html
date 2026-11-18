@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <h1>Weather</h1>
+      <button id="unit-btn" type="button">Show °F</button>
+    </header>
+
+    <form id="search-form">
+      <input id="city" type="text" placeholder="Type a city, e.g. Lahore" />
+      <button type="submit">Search</button>
+    </form>
+
+    <p id="status" class="status">Search for a city to see the weather.</p>
+    <section id="current" class="current"></section>
+    <section id="forecast" class="forecast"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

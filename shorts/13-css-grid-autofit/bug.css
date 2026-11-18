@@ -1,0 +1,11 @@
+/* A fixed 3-column grid overflows or looks cramped on a phone. */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+/* The usual fix is a media query you have to maintain: */
+@media (max-width: 700px) {
+  .grid { grid-template-columns: 1fr; }
+}
