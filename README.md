@@ -56,6 +56,7 @@ One tip from a project, in the order they go live. Each folder has the bug, the 
 | [API Sends 20 Ingredient Fields, 12 Empty? Loop Them Into a Clean List #Shorts](https://youtu.be/_ptarYOEuuQ) | Wed Nov 18, 2026, 5:00 PM PKT | Live | [`shorts/15-recipe-ingredients`](shorts/15-recipe-ingredients/) |
 | [Timer Falls Behind in a Background Tab? Use Date.now(), Not Ticks (JavaScript) #Shorts](https://youtu.be/rfIThTBPhPM) | Thu Nov 19, 2026, 5:00 PM PKT | Scheduled | [`shorts/16-date-now-timer`](shorts/16-date-now-timer/) |
 | [Expense Total Says 0510, Not 15? Input Values Are Strings (JavaScript) #Shorts](https://youtu.be/qZgmwaG0Jak) | Fri Nov 20, 2026, 5:00 PM PKT | Scheduled | [`shorts/17-expense-amount-strings`](shorts/17-expense-amount-strings/) |
+| [Every User Can See Everyone's Notes? Turn On Row Level Security (Supabase) #Shorts](https://youtu.be/9A2dPBd2Frk) | Sat Nov 21, 2026, 5:00 PM PKT | Scheduled | [`shorts/18-supabase-rls`](shorts/18-supabase-rls/) |
 
 ## Status
 
